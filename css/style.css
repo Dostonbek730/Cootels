@@ -1,0 +1,205 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit;
+	font-weight: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------------*/
+
+/* header */
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: normal;
+}
+.container {
+	width: 100%;
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__nav ul {
+	display: flex;
+	margin: 0 -16px;
+}
+
+.header__nav ul li {
+	padding: 0 16px;
+}
+
+.header {
+	height: 120px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+.header__logo {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	color: #192252;
+}
+
+.header__nav a {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #192252;
+}
+
+.header__button a {
+	background: #0e1734;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	height: 47px;
+	width: max-content;
+	padding: 0 16px;
+}
+
+/* Banner */
+
+.banner__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner__text {
+	max-width: 525px;
+	flex: 0 0 525px;
+}
+
+.banner__text h1 {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 72px;
+
+	color: #192252;
+	margin-bottom: 24px;
+}
+
+.banner__text p {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	color: #848fac;
+	margin-bottom: 32px;
+}
+
+.banner__text a {
+	display: flex;
+	align-items: center;
+	width: max-content;
+	height: 51px;
+	padding: 0 32px;
+	background: #0e1734;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #ffffff;
+}
+
+.banner__img {
+	height: 669px;
+	max-width: 588px;
+	flex: 0 0 588px;
+}
+
+.banner__img img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
